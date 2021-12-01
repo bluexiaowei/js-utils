@@ -52,7 +52,7 @@ downloadString('hello', 'hello.txt')
 
 ## formatData
 
-> 将 blob 转换成文件并下载
+> 处理数据
 
 ```javascript
 import formatData from '@/utils/formatData.ts';
