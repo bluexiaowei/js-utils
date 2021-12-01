@@ -1,4 +1,4 @@
-export default function base64ToBlob(base64: string) {
+export default function base64ToBlob(base64: string): Blob {
   // base64: "data:image/png;base64,iVBORw0KGg***"
   const [header, body] = base64.split(",");
   const fileType = header.split(";")[0].split(":")[1];
